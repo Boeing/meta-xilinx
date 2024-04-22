@@ -1,8 +1,11 @@
 name: Update GitHub Mirror
 
 on:
-  schedule:
-    - cron: '*/5 * * * *' # Runs every 5 minutes    
+  push:
+    branches:
+      - main # Replace with your branch name
+  #schedule:
+  #  - cron: '*/5 * * * *' # Runs every 5 minutes    
     # - cron: '0 * * * *' # Runs every hour
 
 jobs:
