@@ -22,4 +22,4 @@ jobs:
           git remote -v
           git fetch upstream
           git fetch --tags
-          git push origin --mirror --tags
+          git push origin --mirror
