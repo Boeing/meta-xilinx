@@ -16,6 +16,7 @@ jobs:
       - name: Update local from upstream
         run: |
           git remote add upstream https://git.yoctoproject.org/meta-xilinx
+          git remote -v
           git fetch upstream
           git fetch --tags
           git push origin --mirror 
